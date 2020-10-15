@@ -183,6 +183,9 @@ footer{
 /* ResponsiveWeb */
 
 @media (max-width:992px){
+    *{
+        overflow: hidden;
+    }
     :root{
         font-size: 32px;
     }
