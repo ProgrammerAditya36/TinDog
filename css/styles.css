@@ -73,6 +73,7 @@ h3 {
     background-color: #fff;
     position: relative;
     text-align: center;
+    font-size: 2rem;
 }
 
 .features-icon {
@@ -183,6 +184,18 @@ footer{
 /* ResponsiveWeb */
 
 @media (max-width:992px){
+    *{
+        overflow-x: hidden;
+    }
+    :root{
+        font-size: 32px;
+    }
+    body{
+        font-size: 2rem;
+    }
+    .navbar{
+        font-size: 2rem;
+    }
     #title {
         text-align: center;
     }
@@ -190,4 +203,22 @@ footer{
         position: static;
         transform: rotate(0deg);
     }
+    .testimonial-image {
+        width: 20%;
+        border-radius: 100%;
+        margin: 20px;
+    }
+    .testimonials-em{
+        display: block;
+    }
+   h2{
+       font-size: 1.5rem;
+   }
+   .carousel{
+       height: 100%;
+   }
+   p{
+       font-size: 1.2rem;
+   }
 }
+
